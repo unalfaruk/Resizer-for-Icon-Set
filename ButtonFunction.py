@@ -51,6 +51,7 @@ def checkMime(path):
     if(type(path)==str):
         if(filename.find(".jpg") != -1 or filename.find(".png") != -1 or filename.find(".gif") != -1):
             showImage(filename)
+            buttonConvert.config(state="normal")
         else:
             print("Please, select an image file!")
 
@@ -66,7 +67,7 @@ frameButtons = Frame(root)
 buttonBrowse = Button(frameButtons, text="Browse", command=chooseAFile)
 buttonBrowse.grid(row=0,column=0,padx=5,pady=5)
 
-buttonConvert= Button(frameButtons, text="Convert", command=convert)
+buttonConvert= Button(frameButtons, text="Convert", command=convert, state=DISABLED)
 buttonConvert.grid(row=0,column=1,padx=5, pady=5)
 
 

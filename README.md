@@ -3,11 +3,15 @@
 This python script create your image's clones with 128x128, 64x64, ..., 8x8 size.
 
   - Basic interface
+![SS1](http://i.hizliresim.com/brDOY0.png)
+
   - GNOME shortcut for context menu
+
+![SS2](http://i.hizliresim.com/X0knJj.png)
 
 ### Installation
 
-Requires: Python3.x | tkinter | PIL
+Requires: Python 3.x | [tkinter] | PIL
 
 *PIL can installed with following steps:*
 
@@ -41,3 +45,5 @@ $ cp Resizer ~/.local/share/nautilus/scripts
 $ chmod +x ~/.local/share/nautilus/scripts/*
 ```
 Now, you can see "Scripts" on context menu of right click of files.
+
+[tkinter]:<https://pythonspot.com/en/tag/tkinter/>

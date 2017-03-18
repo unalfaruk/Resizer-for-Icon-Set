@@ -3,6 +3,7 @@
 This python script create your image's clones with 128x128, 64x64, ..., 8x8 size.
 
   - Basic interface
+  
 ![SS1](http://i.hizliresim.com/brDOY0.png)
 
   - GNOME shortcut for context menu

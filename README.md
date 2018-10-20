@@ -1,6 +1,6 @@
 # Resizer for Icon Set
 
-This python script create your image's clones with 128x128, 64x64, ..., 8x8 size.
+This python script creates your image's clones in size of 128x128, 64x64, ..., 8x8 size.
 
   - Basic interface
   
